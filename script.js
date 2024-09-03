@@ -18,18 +18,7 @@ window.onscroll = ()=>{
     searchForm.classList.remove("active");
 }
 
-<a href="#" onclick="chooseAction('+38970877816')">Kontaktoni</a>
 
-<script>
-function chooseAction(phoneNumber) {
-    const choice = confirm("Dëshironi të na kontaktoni nëpërmjet telefonit ose whatsapp-it?\n\nOK: Call\nCancel: WhatsApp");
-
-    if (choice) {
-        window.location.href = 'tel:' + phoneNumber;
-    } else {
-        window.location.href = 'https://wa.me/' + phoneNumber.replace('+', '');
-    }
-}
 </script>
 /*  document.addEventListener("DOMContentLoaded", function() {
     const menuIcon = document.getElementById('menu-icon');
