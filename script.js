@@ -18,11 +18,11 @@ window.onscroll = ()=>{
     searchForm.classList.remove("active");
 }
 
-<a href="#" onclick="chooseAction('+1234567890')">Contact Us</a>
+<a href="#" onclick="chooseAction('+38970877816')">Kontaktoni</a>
 
 <script>
 function chooseAction(phoneNumber) {
-    const choice = confirm("Do you want to call or send a WhatsApp message?\n\nOK: Call\nCancel: WhatsApp");
+    const choice = confirm("Dëshironi të na kontaktoni nëpërmjet telefonit ose whatsapp-it?\n\nOK: Call\nCancel: WhatsApp");
 
     if (choice) {
         window.location.href = 'tel:' + phoneNumber;
