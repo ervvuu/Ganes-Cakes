@@ -19,7 +19,7 @@ window.onscroll = ()=>{
 }
 
 
-</script>
+
 /*  document.addEventListener("DOMContentLoaded", function() {
     const menuIcon = document.getElementById('menu-icon');
     const closeIcon = document.getElementById('close-icon');
