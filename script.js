@@ -1,4 +1,4 @@
-  const searchIcon = document.querySelector('.search-icon');
+const searchIcon = document.querySelector('.search-icon');
 const searchForm = document.querySelector('.search-form');
 const menuIcon = document.querySelector('.menu-icon');
 const navbar = document.querySelector(".navbar");
@@ -18,7 +18,23 @@ window.onscroll = ()=>{
     searchForm.classList.remove("active");
 }
 
+/*  document.addEventListener("DOMContentLoaded", function() {
+    const menuIcon = document.getElementById('menu-icon');
+    const closeIcon = document.getElementById('close-icon');
+    const navbar = document.querySelector('.navbar');
 
+    menuIcon.addEventListener('click', function() {
+        navbar.classList.add('active');
+        menuIcon.style.display = 'none';
+        closeIcon.style.display = 'block';
+    });
+
+    closeIcon.addEventListener('click', function() {
+        navbar.classList.remove('active');
+        closeIcon.style.display = 'none';
+        menuIcon.style.display = 'block';
+    });
+});  */
 
 /*  document.addEventListener("DOMContentLoaded", function() {
     const menuIcon = document.getElementById('menu-icon');
